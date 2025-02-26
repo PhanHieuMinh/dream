@@ -1,0 +1,357 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+hr{
+    width: 100%;
+}
+.menu1{
+    width: 100%;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0
+    
+}
+
+.logo1 img{
+    height: 7vh;
+}
+
+
+.menu-main1{
+    width: 50%;
+}
+
+.menu-main1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.menu-main1 ul li a{
+    text-decoration: none;
+}
+
+.menu-main1 ul li{
+    list-style: none;
+}
+
+.menu-main1 ul li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.social a img{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.main-title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 75px;
+}
+
+
+
+
+.Info{
+    margin-top: 50px;
+    width: 20%;
+    margin-left: 37.5%;
+    border: 1px gray solid;
+    padding: 10px;
+    animation: RollIn 2s;
+}
+
+.Info-logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px gray solid;
+}
+
+
+.Info-logo img{
+    width: 80%;
+    height: 80%;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.Info-logo h1{
+    font-size: 30px;
+}
+
+.Info-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px gray solid;
+}
+
+.Info-text p{
+    width: 50%;
+    font-size: 100%;
+}
+
+
+.main-title{
+    animation: RollIn 2s;
+}
+
+
+ .menu{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    animation: RollIn 2s;
+    
+}
+
+.logo img{
+    height: 100px;
+}
+
+
+.menu-main{
+    width: 50%;
+}
+
+.menu-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.menu-main ul li a{
+    text-decoration: none;
+}
+
+.menu-main ul li{
+    list-style: none;
+}
+
+.menu-main ul li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.social a img{
+    height: 50px;
+}
+
+.main-contents{
+    background-color: lightgray;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.main{
+    position: relative;
+    height: 100vh;
+}
+
+
+
+.main-contents div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-contents div h2{
+    margin-left: 7px;
+}
+
+.main-contents hr{
+    width: 100%;
+}
+
+.main-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.main-content a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(70, 70, 252);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.text{
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 22px;
+
+}
+
+.contents{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.text img{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+
+
+.text ul li{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.imgs{
+    width: 65%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgs img{
+    width: 40%;
+}
+
+.title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.content img{
+    width: 50%;
+} 
+
+
+
+
+
+
+
+
+
+@keyframes RollIn{
+    0%{
+        transform: translate3d(-10%, 0, 0) ;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+
+.about{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    animation: RollIn 2s;
+    overflow-x: hidden
+}
+
+.about img{
+    height: 100%;
+
+}
+
+
+
+.footer{
+    height: 7vh;
+    text-align: center;
+    background-color: lightgray;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+
+.footer p{
+    width: 100%;
+    color: gray;
+    
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+#myBtn img{
+    height:50px;
+    width:50px;
+}
